@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(209, 202, 202);
+}
+
+header {
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: darkgoldenrod;
+    color:cornsilk
+}
+h1 {
+    display: inline-block;
+    font-size: 78px;
+}
+
+h1 .Yohannes {
+color: darkblue;
+}
+
+header .nav {
+    padding-top: 30px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    
+}
+
+header nav ul {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+
+
