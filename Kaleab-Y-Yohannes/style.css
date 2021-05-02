@@ -12,7 +12,7 @@ header {
     padding: 30px;
     font-family: 'Times New Roman', Times, serif;
     background-color: rgb(245, 243, 243);
-    color: black;
+    color: rgb(75, 3, 3);
 }
 
 h1 {
@@ -30,6 +30,7 @@ header nav {
     float: right;
     font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
+   
 }
 
 header nav ul {
@@ -53,7 +54,7 @@ p {
     height: 500px;
     width: 100%;
     margin-bottom: 30px;
-    background-image: url("../image/pexels-petri-r-4930548.jpg");
+    background-image: url("image/pexels-petri-r-4930548.jpg");
     background-size: cover;
     background-position:center;
 }
@@ -77,9 +78,6 @@ p {
 
 #My-Services,
 #About-Me,
-#E-commerce,
-#Design-Development,
-#WordPress,
 #My-Work
 
 {

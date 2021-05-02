@@ -35,5 +35,52 @@
     
     <section class="hero">
         <!-- Flex Container-->
+        <div class="hero-subtitle">           
+                <!-- Span to provide a span background and change the opacity -->
+                <span class="span-background opacity">2021 A New Chapter</span>
         </div>
     </section>
+
+     <!-- About Me -->
+     <details> 
+        <div id="about-me" class="about-me-wrapper"> 
+            <div class="about-me-grid-container"> 
+                <div class="about-me-item about-me-title"> 
+                    <p>About me</p>
+                </div>
+                <div class="about-me-item p1">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Fugiat cumque velit debitis inventore sequi saepe culpa! 
+                        Vitae quisquam doloremque dolore ad nemo, beatae atque, 
+                        animi nesciunt illum eum, consectetur amet.</p>
+                </div>
+                <div class="about-me-item p2">
+                    <p>I am currently working as an application support analyst at BMO Capital markets. My job entails making sure that our production environment runs smoothly.</p>
+                </div>  
+            </div>
+        </div> 
+    </details>
+
+      <!-- Applications -->
+      <article>
+        <div id="work" class="work-wrapper"> <!-- Id's coming from the header nav and a flex wrapper -->
+            <div class="work-grid-container"> <!-- Work projects container is a grid container -->
+                <div class="work-item work-title"> <!-- Each item is a grid item -->
+                    <p> Work </p>
+                </div>
+                <!-- Clickable grid link functionality achieved with a javascript function as anchor wrap did not work (tried) as intended for me -->
+                <!-- Alt, title (tooltip) and open in new tab functionality added-->
+                <!-- Each grid item has its own grid location achieved by creating one object/instance per class -->
+                <div onclick="projectClicked('challenge-1-refactor')" alt="Image Displaying the Horiseon landing Page" title="Horiseon landing Page" target="_blank" style="cursor: pointer;" class="work-item-project challenge-1-refactor">
+                    <span class="span-background"> <!-- Span added to contain h3, lower text and wrapped background -->
+                        <h3>Horiseon Services</h3>
+                        <span class="lower-text">HTML/CSS</span> <!-- A small class to apply for all grid lower text -->
+                    </span>
+                </div>
+                <!-- All grids below follow same patern as described above until this article container is finished -->
+                <div onclick="projectClicked('run-buddy')" alt="Image Displaying the RUN BUDDY landing Page" title="RUN BUDDY landing page" style="cursor: pointer;" class="work-item-project run-buddy">
+                    <span class="span-background">
+                        <h3>Run Buddy</h3>
+                        <span class="lower-text">HTML/CSS</span>
+                    </span>
+                </div>
