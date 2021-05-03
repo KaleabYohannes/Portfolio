@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgb(166, 181, 204);
+    background-color: rgb(247, 247, 239);
 }
 
 header {
@@ -78,8 +78,10 @@ p {
 
 
 #About-Me,
-#My-Work
-
+#My-Work,
+#Applications,
+#Contact,
+#Resources
 {
     margin-bottom: 30px;
     padding: 50px;
