@@ -11,6 +11,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(85, 3, 3);
+    position: sticky;
+    top: 0;
 }
 
 .navbar ul{
@@ -19,4 +22,24 @@
     margin: 20px 0px;
 }
 
+.navbar ul li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: cornsilk;
+    padding: 8px 25px;
+    transition: all .5s ease;
+
+}
+
+.navbar ul li a:hover{
+    background-color: cornsilk;
+    color: rgb(14, 12, 12);
+    box-shadow: 0 0 10px cornsilk;
+}
+  
  
